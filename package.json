@@ -2,7 +2,7 @@
   "name": "batch-concatenator",
   "displayName": "Batch Concatenator",
   "description": "Quickly combine and copy multiple file contents with ease.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "doomsy",
   "engines": {
     "vscode": "^1.50.0"
@@ -28,8 +28,7 @@
     "keybindings": [
       {
         "command": "batchConcatenator.concatFiles",
-        "key": "alt+q",
-        "when": "explorerViewletVisible && filesExplorerFocus"
+        "key": "alt+q"
       }
     ]
   },
