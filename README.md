@@ -11,37 +11,6 @@ Batch Concatenator allows you to select multiple files directly from VSCode's Ex
 - **Clipboard Support:** Automatically copies the concatenated content to your clipboard.
 - **Performance Optimized:** Efficiently handles large workspaces by excluding unnecessary directories like `node_modules`.
 
-## Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/Doomsy1/batch-concatenator.git
-   ```
-
-2. **Navigate to the Extension Directory:**
-
-   ```bash
-   cd batch-concatenator
-   ```
-
-3. **Install Dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-4. **Compile the Extension:**
-
-   ```bash
-   npm run compile
-   ```
-
-5. **Launch the Extension in VSCode:**
-
-   - Open the project in VSCode.
-   - Press `F5` to launch the Extension Development Host.
-
 ## Usage
 
 1. **Select Files:**
