@@ -16,7 +16,7 @@ Batch Concatenator allows you to select multiple files directly from VSCode's Ex
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/batch-concatenator.git
+   git clone https://github.com/Doomsy1/batch-concatenator.git
    ```
 
 2. **Navigate to the Extension Directory:**
