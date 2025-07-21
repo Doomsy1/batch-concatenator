@@ -22,7 +22,7 @@
     "commands": [
       {
         "command": "batchConcatenator.concatFiles",
-        "title": "Batch Concatenator: Concatenate Selected Files"
+        "title": "Batch Concatenator: Concatenate Files"
       }
     ],
     "keybindings": [

@@ -16,9 +16,9 @@ export function activate(context: vscode.ExtensionContext) {
 
       for (const folder of workspaceFolders) {
         const files = await vscode.workspace.findFiles(
-          new vscode.RelativePattern(folder, '**/*.*'), // Adjust the pattern as needed
+          new vscode.RelativePattern(folder, '**/*.*'),
           '**/node_modules/**', // Exclude node_modules
-          1000 // Limit to 1000 files to prevent performance issues
+          50 // Folders with over 50 files are excluded
         );
         allFiles = allFiles.concat(files);
       }
