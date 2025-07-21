@@ -2,3 +2,5 @@
 /.vscode-test.mjs
 /.vscodeignore
 /node_modules
+/out
+vsc-extension-quickstart.md
